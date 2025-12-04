@@ -7,11 +7,11 @@ const educationData: EducationItem[] = [
   {
     id: 1,
     degree: {
-        en: 'Master of Science in Computer Science',
-        pt: 'Mestre em Ciência da Computação'
+        en: 'Computer Engineering',
+        pt: 'Engenharia Informática'
     },
-    institution: 'Stanford University',
-    year: '2016 - 2018',
+    institution: 'Universidade Zambeze',
+    year: '2021 - 2025',
     description: {
         en: 'Specialized in Artificial Intelligence and Human-Computer Interaction.',
         pt: 'Especialização em Inteligência Artificial e Interação Humano-Computador.'
@@ -20,11 +20,11 @@ const educationData: EducationItem[] = [
   {
     id: 2,
     degree: {
-        en: 'Bachelor of Science in Mathematics',
-        pt: 'Bacharel em Matemática'
+        en: 'Data Science',
+        pt: 'Ciência de Dados'
     },
-    institution: 'Massachusetts Institute of Technology (MIT)',
-    year: '2012 - 2016',
+    institution: 'ALX Africa',
+    year: '2025 - 2025',
     description: {
         en: 'Minor in Statistics. Graduated Magna Cum Laude.',
         pt: 'Menor em Estatística. Graduado com distinção Magna Cum Laude.'

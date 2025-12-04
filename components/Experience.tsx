@@ -7,10 +7,10 @@ const experienceData: ExperienceItem[] = [
   {
     id: 1,
     role: {
-        en: 'Senior Software Engineer',
-        pt: 'Engenheiro de Software Sênior'
+        en: 'Software Engineer',
+        pt: 'Engenheiro de Software'
     },
-    company: 'TechCorp Solutions',
+    company: 'Comunika EI',
     period: {
         en: '2021 - Present',
         pt: '2021 - Presente'
@@ -27,7 +27,7 @@ const experienceData: ExperienceItem[] = [
         en: 'Data Scientist',
         pt: 'Cientista de Dados'
     },
-    company: 'DataFlow Analytics',
+    company: 'Elite Tec Lda',
     period: {
         en: '2018 - 2021',
         pt: '2018 - 2021'

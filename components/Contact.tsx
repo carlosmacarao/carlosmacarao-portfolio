@@ -30,7 +30,7 @@ const Contact: React.FC<ContactProps> = ({ language }) => {
                 </div>
                 <div className="ml-4">
                   <h4 className="text-lg font-medium text-slate-900 dark:text-white">{t.emailLabel}</h4>
-                  <p className="mt-1 text-slate-600 dark:text-slate-400">hello@carlosmacarao.com</p>
+                  <p className="mt-1 text-slate-600 dark:text-slate-400">carlosinaciomacarao@gmail.com</p>
                 </div>
               </div>
 
@@ -42,7 +42,7 @@ const Contact: React.FC<ContactProps> = ({ language }) => {
                 </div>
                 <div className="ml-4">
                   <h4 className="text-lg font-medium text-slate-900 dark:text-white">{t.locationLabel}</h4>
-                  <p className="mt-1 text-slate-600 dark:text-slate-400">San Francisco, CA</p>
+                  <p className="mt-1 text-slate-600 dark:text-slate-400">Beira, Sofala</p>
                 </div>
               </div>
 
@@ -54,7 +54,7 @@ const Contact: React.FC<ContactProps> = ({ language }) => {
                 </div>
                 <div className="ml-4">
                   <h4 className="text-lg font-medium text-slate-900 dark:text-white">{t.phoneLabel}</h4>
-                  <p className="mt-1 text-slate-600 dark:text-slate-400">+1 (555) 123-4567</p>
+                  <p className="mt-1 text-slate-600 dark:text-slate-400">+258 86 273 2876</p>
                 </div>
               </div>
             </div>
@@ -68,7 +68,7 @@ const Contact: React.FC<ContactProps> = ({ language }) => {
                   type="text"
                   id="name"
                   className="mt-1 block w-full px-4 py-3 rounded-lg border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-700 text-slate-900 dark:text-white shadow-sm focus:border-primary-500 focus:ring-primary-500 sm:text-sm border transition-colors"
-                  placeholder="John Doe"
+                  placeholder="Carlos Macarão"
                 />
               </div>
               <div>
@@ -77,7 +77,7 @@ const Contact: React.FC<ContactProps> = ({ language }) => {
                   type="email"
                   id="email"
                   className="mt-1 block w-full px-4 py-3 rounded-lg border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-700 text-slate-900 dark:text-white shadow-sm focus:border-primary-500 focus:ring-primary-500 sm:text-sm border transition-colors"
-                  placeholder="john@example.com"
+                  placeholder="carlos@gmail.com"
                 />
               </div>
               <div>

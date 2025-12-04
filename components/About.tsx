@@ -26,7 +26,7 @@ const About: React.FC<AboutProps> = ({ language }) => {
             <div className="w-full lg:w-1/3 flex justify-center">
                 <div className="relative w-64 h-64 sm:w-80 sm:h-80 rounded-full overflow-hidden border-4 border-slate-100 dark:border-slate-800 shadow-2xl">
                     <img 
-                        src="../assets/img/Carlos.png" 
+                        src="https://drive.google.com/file/d/1xwn1cQ3wV3eqc5dQrGhHGX42Sf39bMMb/view?usp=sharing" 
                         alt="Carlos Macarão" 
                         className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500"
                     />
