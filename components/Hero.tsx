@@ -37,9 +37,9 @@ const Hero: React.FC<HeroProps> = ({ language }) => {
             </div>
 
             <div className="mt-10 flex items-center justify-center lg:justify-start space-x-6 text-slate-400 dark:text-slate-500">
-              <a href="#" className="hover:text-primary-600 dark:hover:text-primary-400 transition-colors"><Github size={24} /></a>
-              <a href="#" className="hover:text-primary-600 dark:hover:text-primary-400 transition-colors"><Linkedin size={24} /></a>
-              <a href="#" className="hover:text-primary-600 dark:hover:text-primary-400 transition-colors"><Mail size={24} /></a>
+              <a href="https://github.com/carlosmacarao" target="_blank" className="hover:text-primary-600 dark:hover:text-primary-400 transition-colors"><Github size={24} /></a>
+              <a href="https://www.linkedin.com/in/carlos-macar%C3%A3o-0916911b9/" target="_blank" className="hover:text-primary-600 dark:hover:text-primary-400 transition-colors"><Linkedin size={24} /></a>
+              <a href="#" target="_blank" className="hover:text-primary-600 dark:hover:text-primary-400 transition-colors"><Mail size={24} /></a>
             </div>
           </div>
 
