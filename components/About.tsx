@@ -3,6 +3,7 @@ import { Terminal, BarChart2, Cpu, Globe, Download } from 'lucide-react';
 import { Language } from '../types';
 import { translations } from '../translations';
 import fotoCarlos from './assets/img/Carlos.png';
+import meuCv from './assets/doc/carlosmacarao-cv-pt FH.pdf';
 
 interface AboutProps {
   language: Language;
@@ -47,12 +48,13 @@ const About: React.FC<AboutProps> = ({ language }) => {
                 </p>
                 
                 <div className="mt-8 flex justify-center lg:justify-start">
-                    <a 
-                    href="#" 
-                    className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-full shadow-lg text-white bg-primary-600 hover:bg-primary-700 transition-all hover:shadow-primary-500/30 transform hover:-translate-y-1"
+                  <a
+                      href={meuCv}
+                      download="Carlos_Macarao_CV.pdf" 
+                      className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-full shadow-lg text-white bg-primary-600 hover:bg-primary-700 transition-all hover:shadow-primary-500/30 transform hover:-translate-y-1"
                     >
-                    <Download className="mr-2 h-5 w-5" />
-                    {t.downloadCv}
+                      <Download className="mr-2 h-5 w-5" />
+                      {t.downloadCv}
                     </a>
                 </div>
             </div>

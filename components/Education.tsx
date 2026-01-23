@@ -11,7 +11,7 @@ const educationData: EducationItem[] = [
         pt: 'Engenharia Informática'
     },
     institution: 'Universidade Zambeze',
-    year: '2021 - 2025',
+    year: '2021 - 2026',
     description: {
         en: 'Specialized in Artificial Intelligence and Human-Computer Interaction.',
         pt: 'Especialização em Inteligência Artificial e Interação Humano-Computador.'
