@@ -52,7 +52,7 @@ const Hero: React.FC<HeroProps> = ({ language }) => {
                   <div className="w-3 h-3 rounded-full bg-green-500"></div>
                </div>
                <div className="space-y-3 font-mono text-sm text-slate-600 dark:text-slate-300">
-                  <div className="flex"><span className="text-primary-600 dark:text-primary-400">{t.codeCard.class}</span> <span className="text-yellow-600 dark:text-yellow-400">DataEngineer</span>:</div>
+                  <div className="flex"><span className="text-primary-600 dark:text-primary-400">{t.codeCard.class}</span> <span className="text-yellow-600 dark:text-yellow-400">  DataScientist</span>:</div>
                   <div className="pl-4"><span className="text-primary-600 dark:text-primary-400">{t.codeCard.def}</span> <span className="text-blue-600 dark:text-blue-400">__init__</span>(self):</div>
                   <div className="pl-8">self.name = <span className="text-green-600 dark:text-green-400">'Carlos Macarão'</span></div>
                   <div className="pl-8">self.skills = [<span className="text-green-600 dark:text-green-400">'React'</span>, <span className="text-green-600 dark:text-green-400">'Python'</span>, <span className="text-green-600 dark:text-green-400">'AI'</span>]</div>

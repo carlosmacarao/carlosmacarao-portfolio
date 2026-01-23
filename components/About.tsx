@@ -2,6 +2,7 @@ import React from 'react';
 import { Terminal, BarChart2, Cpu, Globe, Download } from 'lucide-react';
 import { Language } from '../types';
 import { translations } from '../translations';
+import fotoCarlos from './assets/img/Carlos.png';
 
 interface AboutProps {
   language: Language;
@@ -25,10 +26,10 @@ const About: React.FC<AboutProps> = ({ language }) => {
             {/* Profile Photo */}
             <div className="w-full lg:w-1/3 flex justify-center">
                 <div className="relative w-64 h-64 sm:w-80 sm:h-80 rounded-full overflow-hidden border-4 border-slate-100 dark:border-slate-800 shadow-2xl">
-                    <img 
-                        src="https://drive.google.com/file/d/1xwn1cQ3wV3eqc5dQrGhHGX42Sf39bMMb/view?usp=sharing" 
-                        alt="Carlos Macarão" 
-                        className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500"
+                    <img
+                      src={fotoCarlos}
+                      alt="Carlos Macarão"
+                      className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500"
                     />
                      {/* Decorative ring */}
                      <div className="absolute inset-0 rounded-full border border-black/5 dark:border-white/10"></div>
